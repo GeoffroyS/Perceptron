@@ -5,7 +5,7 @@ More formally, we can pose this problem as a binary classification task where we
 refer to our two classes as 1 (positive class) and -1 (negative class) for simplicity. We
 can then define an activation function φ(z) that takes a linear combination of certain
 input values x and a corresponding weight vector w , where z is the so-called net
-￼input ![alt tag]( http://www.sciweavers.org/tex2img.php?eq=%28z%3Dw.x%2B...%2Bw.x%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0):<br>
+￼input ![alt tag](http://www.sciweavers.org/tex2img.php?eq=%28z%3Dw.x%2B...%2Bw.x%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0):<br>
 ![alt tag](http://www.sciweavers.org/tex2img.php?eq=w%20%3D%20%5Cbegin%7Bbmatrix%7Dw_%7B1%7D%20%20%5C%5C%20...%20%5C%5Cw_%7Bm%7D%20%5Cend%7Bbmatrix%7D%2C%20x%20%3D%20%5Cbegin%7Bbmatrix%7Dx_%7B1%7D%20%20%5C%5C%20...%20%5C%5Cx_%7Bm%7D%20%5Cend%7Bbmatrix%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)<br>
 
 Now, if the activation of a particular sample ![alt tag](http://www.sciweavers.org/tex2img.php?eq=%20x%5E%7Bi%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) , that is, the output of φ(z), is ￼￼greater than a defined threshold θ , we predict class 1 and class -1, otherwise. In the
